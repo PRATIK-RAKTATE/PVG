@@ -1,799 +1,1395 @@
 var APP_DATA = {
-  "scenes": [
+  scenes: [
     {
-      "id": "19-collage",
-      "name": "Collage",
-      "levels": [
+      id: "24-campus-view",
+      name: "campus view",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2025,
-      "initialViewParameters": {
-        "yaw": -0.48604620944752774,
-        "pitch": 0.3677000489731128,
-        "fov": 1.3365071038314758
+      faceSize: 2035,
+      initialViewParameters: {
+        yaw: 0.15714825399067323,
+        pitch: 0.2981649024614299,
+        fov: 1.4365767620069474,
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": -0.3473414386784306,
-          "pitch": 0.12070413780602607,
-          "rotation": 0,
-          "target": "7-classroom" //
+          yaw: -0.6941891168492447,
+          pitch: 0.3463461698795349,
+          rotation: 0,
+          target: "16-old-building",
         },
         {
-          "yaw": -0.3101028310217391,
-          "pitch": 0.5338318946207377,
-          "rotation": 0,
-          "target": "9-computer-center"
+          yaw: -0.11385542051422881,
+          pitch: 0.13837566997682593,
+          rotation: 0,
+          target: "25-workshop",
         },
         {
-          "yaw": 0.41979757865364675,
-          "pitch": 0.4395794398525439,
-          "rotation": 0,
-          "target": "7-classroom" //
+          yaw: -0.504493762818047,
+          pitch: 0.20755980295309584,
+          rotation: 0,
+          target: "3-bus-parking",
         },
         {
-          "yaw": -0.5465139006450102,
-          "pitch": 0.13057538170037475,
-          "rotation": 0,
-          "target": "15-workshop" //
+          yaw: 0.5860926436327176,
+          pitch: 0.6022499549142175,
+          rotation: 0,
+          target: "26-main-interance",
         },
         {
-          "yaw": 1.4126924738320668,
-          "pitch": 0.4095018199100746,
-          "rotation": 0,
-          "target": "18-new-building" //
+          yaw: -1.1253535146026952,
+          pitch: 0.9529620626150823,
+          rotation: 0,
+          target: "36-parking",
         },
         {
-          "yaw": -0.12647565646621928,
-          "pitch": 0.27062062839945966,
-          "rotation": 0,
-          "target": "0-bus-parking" //
+          yaw: 1.6964488478994024,
+          pitch: 0.30013546907085953,
+          rotation: 0,
+          target: "13-administrative-section",
         },
         {
-          "yaw": -0.9144283663564163,
-          "pitch": 0.3483717994608213,
-          "rotation": 0,
-          "target": "17-old-building" //
+          yaw: 1.8070013527537148,
+          pitch: 0.24990220964324195,
+          rotation: 0,
+          target: "17-aids-dept",
         },
-        {
-          "yaw": -1.5719832185710398,
-          "pitch": 0.418297481923247,
-          "rotation": 0,
-          "target": "2-collage-view" //
-        }
       ],
-      "infoHotspots": []
+      infoHotspots: [],
     },
     {
-      "id": "0-bus-parking",
-      "name": "Bus-Parking",
-      "levels": [
+      id: "0-computer-lab",
+      name: "computer lab",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2000,
-      "initialViewParameters": {
-        "yaw": 0.23168606626579624,
-        "pitch": 0.14600558023465382,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "1-canteen",
-      "name": "Canteen",
-      "levels": [
+      id: "1-computer-dept-entranceon-2nd-floor",
+      name: "Computer dept entrance(on 2nd floor)",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 1942.5,
-      "initialViewParameters": {
-        "yaw": 1.0677021186326243,
-        "pitch": 0.011278540960603323,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [
+        {
+          yaw: -2.8251778250676836,
+          pitch: -0.0817275782155491,
+          rotation: 0,
+          target: "14-classroom",
+        },
+        {
+          yaw: 0.021934310279467795,
+          pitch: 0.02881497777378428,
+          rotation: 0,
+          target: "5-cs-it-enterance",
+        },
+      ],
+      infoHotspots: [],
     },
     {
-      "id": "2-collage-view",
-      "name": "Collage-view",
-      "levels": [
+      id: "2-account-section",
+      name: "account section",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
+        {
+          tileSize: 512,
+          size: 4096,
+        },
       ],
-      "faceSize": 2040,
-      "initialViewParameters": {
-        "yaw": -1.2255107015425466,
-        "pitch": 0.18831110898367243,
-        "fov": 1.3365071038314758
+      faceSize: 2987,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [
-        {
-          "yaw": -2.1874064248677243,
-          "pitch": 0.13621366054385575,
-          "rotation": 0,
-          "target": "1-canteen"
-        }
-      ],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "3-mechanical-dept",
-      "name": "Mechanical-dept",
-      "levels": [
+      id: "3-bus-parking",
+      name: "bus parking",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.9980836341699915,
-        "pitch": 0.1479100188793936,
-        "fov": 1.3365071038314758
+      faceSize: 1875,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "4-physics-lab",
-      "name": "Physics-lab",
-      "levels": [
+      id: "4-workshop",
+      name: "workshop",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
+        {
+          tileSize: 512,
+          size: 4096,
+        },
       ],
-      "faceSize": 1500,
-      "initialViewParameters": {
-        "yaw": -0.26746136100204865,
-        "pitch": -0.044089462655335865,
-        "fov": 1.3365071038314758
+      faceSize: 3035,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "5-aids-labs",
-      "name": "AIDS-labs",
-      "levels": [
+      id: "5-cs-it-enterance",
+      name: "CS IT Enterance",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0.05332474798617781,
-        "pitch": 0.3246488265774854,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [
+        {
+          yaw: 1.4160981929743777,
+          pitch: -0.07120854436428736,
+          rotation: 0,
+          target: "0-computer-lab",
+        },
+      ],
+      infoHotspots: [],
     },
     {
-      "id": "6-4-entries",
-      "name": "4-entries",
-      "levels": [
+      id: "6-it-interance",
+      name: "IT Interance",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -1.7464277109641113,
-        "pitch": 0.05639270480301661,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": -0.8830070634849925,
-          "pitch": -0.0679098705363046,
-          "rotation": 0,
-          "target": "11-secretory-cabin"
+          yaw: -0.058614623067617444,
+          pitch: 0.01207834219658821,
+          rotation: 0,
+          target: "7-it-lab",
         },
         {
-          "yaw": 0.8512266542412128,
-          "pitch": -0.1376813702453532,
-          "rotation": 0,
-          "target": "10-principal-cabin"
+          yaw: 2.8809921832730367,
+          pitch: -0.1448076853553779,
+          rotation: 0,
+          target: "12-library-4",
         },
-        {
-          "yaw": -2.198006730083538,
-          "pitch": -0.12720376928167632,
-          "rotation": 0,
-          "target": "13-meeting-hall"
-        },
-        {
-          "yaw": 1.4592679945355016,
-          "pitch": -0.030702805585150372,
-          "rotation": 0,
-          "target": "14-account-section"
-        },
-        {
-          "yaw": -2.9984172578587938,
-          "pitch": -0.017753007562955503,
-          "rotation": 0,
-          "target": "9-computer-center"
-        },
-        {
-          "yaw": 1.622909092807462,
-          "pitch": -0.016575951239982345,
-          "rotation": 0,
-          "target": "12-exam-section"
-        }
       ],
-      "infoHotspots": []
+      infoHotspots: [],
     },
     {
-      "id": "7-classroom",
-      "name": "classroom",
-      "levels": [
+      id: "7-it-lab",
+      name: "IT lab",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 3.138042313862023,
-        "pitch": 0.07852256926359402,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "8-seminar-hall",
-      "name": "seminar-hall",
-      "levels": [
+      id: "8-library-entarance",
+      name: "library Entarance",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": -0.07873724446180397,
-        "pitch": -0.08747412639834451,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [
+        {
+          yaw: 1.4696681681609345,
+          pitch: 0.01708155348349294,
+          rotation: 0,
+          target: "9-library-1",
+        },
+      ],
+      infoHotspots: [],
     },
     {
-      "id": "9-computer-center",
-      "name": "computer-center",
-      "levels": [
+      id: "9-library-1",
+      name: "Library-1",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.659128327186302,
-        "pitch": 0.24416847720653934,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [
+        {
+          yaw: -1.6193667467665946,
+          pitch: 0.02501547000407811,
+          rotation: 0,
+          target: "10-library-2",
+        },
+        {
+          yaw: -0.057398213287932265,
+          pitch: -0.008917323408125455,
+          rotation: 0,
+          target: "11-library-3",
+        },
+      ],
+      infoHotspots: [],
     },
     {
-      "id": "10-principal-cabin",
-      "name": "principal-cabin",
-      "levels": [
+      id: "10-library-2",
+      name: "Library-2",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0.1248581695657478,
-        "pitch": -0.005639270480301661,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "11-secretory-cabin",
-      "name": "secretory cabin",
-      "levels": [
+      id: "11-library-3",
+      name: "Library-3",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0,
-        "pitch": 0,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "12-exam-section",
-      "name": "exam-section",
-      "levels": [
+      id: "12-library-4",
+      name: "Library-4",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 0.2826343859821705,
-        "pitch": 0.19695766928798086,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [
+        {
+          yaw: 0.45072223081388785,
+          pitch: 0.17920794344052382,
+          rotation: 0,
+          target: "8-library-entarance",
+        },
+      ],
+      infoHotspots: [],
     },
     {
-      "id": "13-meeting-hall",
-      "name": "meeting-hall",
-      "levels": [
+      id: "13-administrative-section",
+      name: "Administrative section",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048,
         },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
       ],
-      "faceSize": 2675,
-      "initialViewParameters": {
-        "yaw": 0.246697566242279,
-        "pitch": 0.07707002989745604,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [
+        {
+          yaw: 1.0146030645250477,
+          pitch: -0.07924732507377286,
+          rotation: 0,
+          target: "18-principal-cabin",
+        },
+        {
+          yaw: -0.927008229733584,
+          pitch: -0.06952331879860729,
+          rotation: 0,
+          target: "19-secretory",
+        },
+        {
+          yaw: -2.1200041651049553,
+          pitch: -0.14179840119643572,
+          rotation: 0,
+          target: "29-meeting-hall",
+        },
+        {
+          yaw: -3.0989674311899282,
+          pitch: 0.09604019813314224,
+          rotation: 0,
+          target: "15-computer-center",
+        },
+        {
+          yaw: 1.472116564943999,
+          pitch: -0.012206212486802315,
+          rotation: 0,
+          target: "2-account-section",
+        },
+      ],
+      infoHotspots: [],
     },
     {
-      "id": "14-account-section",
-      "name": "account-section",
-      "levels": [
+      id: "14-classroom",
+      name: "classroom",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048,
         },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
       ],
-      "faceSize": 3000,
-      "initialViewParameters": {
-        "yaw": 1.0808661396305048,
-        "pitch": 0.4574153943176462,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "15-workshop",
-      "name": "workshop",
-      "levels": [
+      id: "15-computer-center",
+      name: "computer-center",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
+          tileSize: 512,
+          size: 2048,
         },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
       ],
-      "faceSize": 3000,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "16-administative-section",
-      "name": "administative-section",
-      "levels": [
+      id: "16-old-building",
+      name: "old building",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2000,
-      "initialViewParameters": {
-        "yaw": -0.363579871095876,
-        "pitch": 0.2384642439730449,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [
-        {
-          "yaw": -0.35670465414739283,
-          "pitch": 0.2064257430393397,
-          "rotation": 0,
-          "target": "5-aids-labs"
-        }
-      ],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "17-old-building",
-      "name": "old-building",
-      "levels": [
+      id: "17-aids-dept",
+      name: "AIDS dept",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.743688041758607,
-        "pitch": 0.09148149890267021,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [
+      linkHotspots: [
         {
-          "yaw": 3.0401137339959767,
-          "pitch": -0.07929025177582716,
-          "rotation": 0,
-          "target": "5-aids-labs"
-        }
+          yaw: -0.18433851998091377,
+          pitch: 0.19338210669219436,
+          rotation: 0,
+          target: "34-ai-dept-lab-1in-basement",
+        },
+        {
+          yaw: 0.24222389079068662,
+          pitch: 0.18369986240835878,
+          rotation: 0,
+          target: "32-ai-lab2in-basement",
+        },
+        {
+          yaw: 2.7925283816361697,
+          pitch: 0.3047011437944782,
+          rotation: 0,
+          target: "35-aids-cabin",
+        },
       ],
-      "infoHotspots": []
+      infoHotspots: [],
     },
     {
-      "id": "18-new-building",
-      "name": "New Building",
-      "levels": [
+      id: "18-principal-cabin",
+      name: "principal-cabin",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2000,
-      "initialViewParameters": {
-        "yaw": 1.484930309067841,
-        "pitch": -0.06955544632904598,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [],
-      "infoHotspots": []
+      linkHotspots: [],
+      infoHotspots: [],
     },
     {
-      "id": "20-new-building",
-      "name": "new building",
-      "levels": [
+      id: "19-secretory",
+      name: "secretory",
+      levels: [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "tileSize": 512,
-          "size": 512
+          tileSize: 512,
+          size: 512,
         },
         {
-          "tileSize": 512,
-          "size": 1024
+          tileSize: 512,
+          size: 1024,
         },
         {
-          "tileSize": 512,
-          "size": 2048
-        }
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "faceSize": 2025,
-      "initialViewParameters": {
-        "yaw": -0.024322176440847443,
-        "pitch": 0.30639805706467804,
-        "fov": 1.3365071038314758
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
       },
-      "linkHotspots": [
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "20-seminar-hall",
+      name: "seminar-hall",
+      levels: [
         {
-          "yaw": 0.9292468739295856,
-          "pitch": 0.22683784869115087,
-          "target": "0-bus-parking"
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
         },
         {
-          "yaw": -0.077214950234616,
-          "pitch": 0.17635989336064384,
-          "rotation": 0,
-          "target": "18-new-building"
+          tileSize: 512,
+          size: 512,
         },
         {
-          "yaw": 1.4573126981443894,
-          "pitch": 0.3222552678459021,
-          "rotation": 0,
-          "target": "15-workshop"
-        }
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
       ],
-      "infoHotspots": []
-    }
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "21-cropped-account-section-2",
+      name: "cropped-account-section-2",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+        {
+          tileSize: 512,
+          size: 4096,
+        },
+      ],
+      faceSize: 2987,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "22-cropped-bus-parking2",
+      name: "cropped-bus-parking(2)",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 1875,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "23-meeting-hall",
+      name: "meeting hall",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+        {
+          tileSize: 512,
+          size: 4096,
+        },
+      ],
+      faceSize: 2719.5,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+
+    {
+      id: "25-workshop",
+      name: "workshop",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+        {
+          tileSize: 512,
+          size: 4096,
+        },
+      ],
+      faceSize: 3035,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "26-main-interance",
+      name: "main interance",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [
+        {
+          yaw: 2.6587058962794723,
+          pitch: 0.05422288597621083,
+          rotation: 0,
+          target: "27-mech-dpt--seminar-hall--classroomentranceon-1st-floor",
+        },
+      ],
+      infoHotspots: [],
+    },
+    {
+      id: "27-mech-dpt--seminar-hall--classroomentranceon-1st-floor",
+      name: "Mech dpt + seminar hall + classroom(Entrance)(on 1st floor)",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [
+        {
+          yaw: 2.697800942185964,
+          pitch: -0.03087938101126575,
+          rotation: 0,
+          target: "28-mech-dept-labon-1st-floor",
+        },
+        {
+          yaw: -1.3460866226659611,
+          pitch: -0.044994039576959466,
+          rotation: 0,
+          target: "14-classroom",
+        },
+        {
+          yaw: 2.0944368442874888,
+          pitch: 0.0018082462752193607,
+          rotation: 0,
+          target: "20-seminar-hall",
+        },
+        {
+          yaw: -2.090685154401216,
+          pitch: -0.010284661449736276,
+          rotation: 0,
+          target: "28-mech-dept-labon-1st-floor",
+        },
+      ],
+      infoHotspots: [],
+    },
+    {
+      id: "28-mech-dept-labon-1st-floor",
+      name: "Mech dept lab(on 1st floor)",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "29-meeting-hall",
+      name: "meeting hall",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+        {
+          tileSize: 512,
+          size: 4096,
+        },
+      ],
+      faceSize: 2750,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "30-administative-section-and--aids-lab",
+      name: "Administative section and  AIDS lab",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [
+        {
+          yaw: 0.0032972768886061488,
+          pitch: -0.014758723298388787,
+          rotation: 0,
+          target: "13-administrative-section",
+        },
+        {
+          yaw: -0.897991079080942,
+          pitch: 0.02155320266385985,
+          rotation: 0,
+          target: "31-ai-1entrance--drawing-hallin-basement",
+        },
+      ],
+      infoHotspots: [],
+    },
+    {
+      id: "31-ai-1entrance--drawing-hallin-basement",
+      name: "AI 1(entrance + drawing hall)(In basement)",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [
+        {
+          yaw: 1.5475224985322686,
+          pitch: 0.10292915291591065,
+          rotation: 0,
+          target: "17-aids-dept",
+        },
+      ],
+      infoHotspots: [
+        {
+          yaw: -1.8470657549812834,
+          pitch: 0.13136993148219567,
+          title: "Drawing Hall",
+          text: "<br>",
+        },
+      ],
+    },
+    {
+      id: "32-ai-lab2in-basement",
+      name: "AI lab2(In basement)",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "33-ai-2entrancein-basement",
+      name: "AI 2(entrance)(In basement)",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "34-ai-dept-lab-1in-basement",
+      name: "AI dept lab 1(in basement)",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "35-aids-cabin",
+      name: "AIDS cabin",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2048,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
+    {
+      id: "36-parking",
+      name: "parking",
+      levels: [
+        {
+          tileSize: 256,
+          size: 256,
+          fallbackOnly: true,
+        },
+        {
+          tileSize: 512,
+          size: 512,
+        },
+        {
+          tileSize: 512,
+          size: 1024,
+        },
+        {
+          tileSize: 512,
+          size: 2048,
+        },
+      ],
+      faceSize: 2000,
+      initialViewParameters: {
+        pitch: 0,
+        yaw: 0,
+        fov: 1.5707963267948966,
+      },
+      linkHotspots: [],
+      infoHotspots: [],
+    },
   ],
-  "name": "PVG-Virtual-tour",
-  "settings": {
-    "mouseViewMode": "drag",
-    "autorotateEnabled": true,
-    "fullscreenButton": true,
-    "viewControlButtons": true
-  }
+  name: "Project Title",
+  settings: {
+    mouseViewMode: "drag",
+    autorotateEnabled: true,
+    fullscreenButton: true,
+    viewControlButtons: true,
+  },
 };

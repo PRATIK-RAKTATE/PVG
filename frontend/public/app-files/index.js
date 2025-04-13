@@ -497,6 +497,17 @@
     }
   });
 
+  const sceneDropdown4 = document.getElementById("sceneDropdown4");
+
+  sceneDropdown4.addEventListener("change", function () {
+    const selectedSceneId = this.value;
+    const selectedScene = findSceneById(selectedSceneId);
+    if (selectedScene) {
+      switchScene(selectedScene);
+    }
+  });
+
+
   // Display the initial scene.
   switchScene(scenes[0]);
 })();

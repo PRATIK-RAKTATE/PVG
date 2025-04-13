@@ -935,7 +935,8 @@ body.view-control-buttons .viewControlButton {
 
 #sceneDropdown,
 #sceneDropdown2,
-#sceneDropdown3{
+#sceneDropdown3,
+#sceneDropdown4{
   background-color: transparent;
   color: rgb(19, 19, 19);
   font-family: poppins;
@@ -946,7 +947,8 @@ body.view-control-buttons .viewControlButton {
 
 #sceneDropdown option,
 #sceneDropdown3 option,
-#sceneDropdown2 option {
+#sceneDropdown2 option ,
+#sceneDropdown4 option {
   color: rgb(255, 255, 255);
   background-color: #4c5360;
   font-family: poppins;
@@ -955,14 +957,17 @@ body.view-control-buttons .viewControlButton {
 
 #sceneDropdown option:hover,
 #sceneDropdown3 option:hover,
-#sceneDropdown2 option:hover {
+#sceneDropdown2 option:hover, 
+#sceneDropdown4 option:hover{
   background-color: transparent;
   border: none;
 }
 
 #sceneDropdown:focus,
 #sceneDropdown3:focus,
-#sceneDropdown2:focus {
+#sceneDropdown2:focus,
+#sceneDropdown4:focus
+{
   outline: none;
 }
 
