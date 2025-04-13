@@ -2,7 +2,7 @@ var APP_DATA = {
   scenes: [
     {
       id: "24-campus-view",
-      name: "campus view",
+      name: "Campus View",
       levels: [
         {
           tileSize: 256,
@@ -76,7 +76,7 @@ var APP_DATA = {
     },
     {
       id: "0-computer-lab",
-      name: "computer lab",
+      name: "Computer Lab",
       levels: [
         {
           tileSize: 256,
@@ -107,7 +107,7 @@ var APP_DATA = {
     },
     {
       id: "1-computer-dept-entranceon-2nd-floor",
-      name: "Computer dept entrance(on 2nd floor)",
+      name: "Computer Dept Enterance",
       levels: [
         {
           tileSize: 256,
@@ -151,7 +151,7 @@ var APP_DATA = {
     },
     {
       id: "2-account-section",
-      name: "account section",
+      name: "Account Section",
       levels: [
         {
           tileSize: 256,
@@ -186,7 +186,7 @@ var APP_DATA = {
     },
     {
       id: "3-bus-parking",
-      name: "bus parking",
+      name: "Bus Parking",
       levels: [
         {
           tileSize: 256,
@@ -217,7 +217,7 @@ var APP_DATA = {
     },
     {
       id: "4-workshop",
-      name: "workshop",
+      name: "Workshop",
       levels: [
         {
           tileSize: 256,
@@ -290,7 +290,7 @@ var APP_DATA = {
     },
     {
       id: "6-it-interance",
-      name: "IT Interance",
+      name: "IT Enterance",
       levels: [
         {
           tileSize: 256,
@@ -334,7 +334,7 @@ var APP_DATA = {
     },
     {
       id: "7-it-lab",
-      name: "IT lab",
+      name: "IT Lab",
       levels: [
         {
           tileSize: 256,
@@ -365,7 +365,7 @@ var APP_DATA = {
     },
     {
       id: "8-library-entarance",
-      name: "library Entarance",
+      name: "Library Entarance",
       levels: [
         {
           tileSize: 256,
@@ -547,7 +547,7 @@ var APP_DATA = {
     },
     {
       id: "13-administrative-section",
-      name: "Administrative section",
+      name: "Administrative Section",
       levels: [
         {
           tileSize: 256,
@@ -609,7 +609,7 @@ var APP_DATA = {
     },
     {
       id: "14-classroom",
-      name: "classroom",
+      name: "Classroom",
       levels: [
         {
           tileSize: 256,
@@ -640,7 +640,7 @@ var APP_DATA = {
     },
     {
       id: "15-computer-center",
-      name: "computer-center",
+      name: "Computer Center",
       levels: [
         {
           tileSize: 256,
@@ -671,7 +671,7 @@ var APP_DATA = {
     },
     {
       id: "16-old-building",
-      name: "old building",
+      name: "Old Building",
       levels: [
         {
           tileSize: 256,
@@ -702,7 +702,7 @@ var APP_DATA = {
     },
     {
       id: "17-aids-dept",
-      name: "AIDS dept",
+      name: "AIDS Dept",
       levels: [
         {
           tileSize: 256,
@@ -752,7 +752,7 @@ var APP_DATA = {
     },
     {
       id: "18-principal-cabin",
-      name: "principal-cabin",
+      name: "Principal Cabin",
       levels: [
         {
           tileSize: 256,
@@ -783,7 +783,7 @@ var APP_DATA = {
     },
     {
       id: "19-secretory",
-      name: "secretory",
+      name: "Secretory",
       levels: [
         {
           tileSize: 256,
@@ -814,7 +814,7 @@ var APP_DATA = {
     },
     {
       id: "20-seminar-hall",
-      name: "seminar-hall",
+      name: "Seminar Hall",
       levels: [
         {
           tileSize: 256,
@@ -845,7 +845,7 @@ var APP_DATA = {
     },
     {
       id: "21-cropped-account-section-2",
-      name: "cropped-account-section-2",
+      name: "Account Section",
       levels: [
         {
           tileSize: 256,
@@ -880,7 +880,7 @@ var APP_DATA = {
     },
     {
       id: "22-cropped-bus-parking2",
-      name: "cropped-bus-parking(2)",
+      name: "Bus Parking",
       levels: [
         {
           tileSize: 256,
@@ -911,7 +911,7 @@ var APP_DATA = {
     },
     {
       id: "23-meeting-hall",
-      name: "meeting hall",
+      name: "Meeting Hall",
       levels: [
         {
           tileSize: 256,
@@ -947,7 +947,7 @@ var APP_DATA = {
 
     {
       id: "25-workshop",
-      name: "workshop",
+      name: "Workshop",
       levels: [
         {
           tileSize: 256,
@@ -982,7 +982,7 @@ var APP_DATA = {
     },
     {
       id: "26-main-interance",
-      name: "main interance",
+      name: "Main Enterance",
       levels: [
         {
           tileSize: 256,
@@ -1013,14 +1013,14 @@ var APP_DATA = {
           yaw: 2.6587058962794723,
           pitch: 0.05422288597621083,
           rotation: 0,
-          target: "27-mech-dpt--seminar-hall--classroomentranceon-1st-floor",
+          target: "27-mechanical-department",
         },
       ],
       infoHotspots: [],
     },
     {
-      id: "27-mech-dpt--seminar-hall--classroomentranceon-1st-floor",
-      name: "Mech dpt + seminar hall + classroom(Entrance)(on 1st floor)",
+      id: "27-mechanical-department",
+      name: "Mechanical Department",
       levels: [
         {
           tileSize: 256,
@@ -1076,7 +1076,7 @@ var APP_DATA = {
     },
     {
       id: "28-mech-dept-labon-1st-floor",
-      name: "Mech dept lab(on 1st floor)",
+      name: "Mechanical Dept Lab",
       levels: [
         {
           tileSize: 256,
@@ -1107,7 +1107,7 @@ var APP_DATA = {
     },
     {
       id: "29-meeting-hall",
-      name: "meeting hall",
+      name: "Meeting Hall",
       levels: [
         {
           tileSize: 256,
@@ -1186,7 +1186,7 @@ var APP_DATA = {
     },
     {
       id: "31-ai-1entrance--drawing-hallin-basement",
-      name: "AI 1(entrance + drawing hall)(In basement)",
+      name: "AI Dept Enterance",
       levels: [
         {
           tileSize: 256,
@@ -1231,7 +1231,7 @@ var APP_DATA = {
     },
     {
       id: "32-ai-lab2in-basement",
-      name: "AI lab2(In basement)",
+      name: "AI lab2",
       levels: [
         {
           tileSize: 256,
@@ -1262,7 +1262,7 @@ var APP_DATA = {
     },
     {
       id: "33-ai-2entrancein-basement",
-      name: "AI 2(entrance)(In basement)",
+      name: "AI Dept Enterance 2",
       levels: [
         {
           tileSize: 256,
@@ -1293,7 +1293,7 @@ var APP_DATA = {
     },
     {
       id: "34-ai-dept-lab-1in-basement",
-      name: "AI dept lab 1(in basement)",
+      name: "AI Department",
       levels: [
         {
           tileSize: 256,
@@ -1324,7 +1324,7 @@ var APP_DATA = {
     },
     {
       id: "35-aids-cabin",
-      name: "AIDS cabin",
+      name: "AIDS HOD Cabin",
       levels: [
         {
           tileSize: 256,
@@ -1355,7 +1355,7 @@ var APP_DATA = {
     },
     {
       id: "36-parking",
-      name: "parking",
+      name: "Parking",
       levels: [
         {
           tileSize: 256,
@@ -1385,7 +1385,7 @@ var APP_DATA = {
       infoHotspots: [],
     },
   ],
-  name: "Project Title",
+  name: "PVG 360",
   settings: {
     mouseViewMode: "drag",
     autorotateEnabled: true,
